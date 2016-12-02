@@ -19,11 +19,66 @@ html {
 
 body {
   margin: 0;
+  background-color: #dccebf;
 }
 
-h1,
-p {
-  margin: 0 0 1.3rem;
+header {
+  text-align: center;
+  padding: 0 0 10px;
+  background-color: #a0805f;
+}
+
+h1 {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 2rem;
+  padding: .75rem 0;
+  margin: 0;
+  color: #231100;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  background-color: #603913;
+  list-style-type: none;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+nav a {
+  color: #dccebf;
+  text-decoration: none;
+
+}
+
+div {
+  padding: 0 .5rem;
+}
+
+figure {
+  text-align: left;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Berkshire Swash", cursive;
+  color: #231100;
+}
+
+h3 {
+  color: #231100;
+  margin: 0 0 .5rem;
+  font-size: 1.2rem;
+}
+
+img {
+  width: 100%;
 }
 
 @media only screen and (min-width: 25em) {
