@@ -25,6 +25,7 @@ body {
 header {
  text-align: center;
  padding: .3rem;
+ position: relative;
 }
 
 img {
@@ -46,6 +47,54 @@ h1 {
 ul {
   padding: 0;
   margin: 0;
+}
+
+.nav {
+  display: none;
+}
+
+.nav-label {
+  display: inline-block;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+img.nav-open,
+img.nav-close {
+  width: 20px;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 nav li {
@@ -71,6 +120,7 @@ div {
 
 h2 {
   font-size: 1.2em;
+  margin: 0 0 .83em 0;
 }
 
 figure {
