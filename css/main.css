@@ -86,10 +86,6 @@ img.nav-close {
   width: 100%;
 }
 
-.nav-check:checked ~ .nav-label {
-
-}
-
 .nav-close {
   display: none;
 }
@@ -125,15 +121,8 @@ nav a:hover {
   color: #fff;
 }
 
-main {
-}
-
 section {
   padding: .6rem;
-}
-
-div {
-
 }
 
 h2 {
@@ -194,7 +183,7 @@ footer p {
   }
 
   h1 {
-   padding: 0 0 .6rem;
+    padding: 0 0 .6rem;
   }
 
   .nav-check,
