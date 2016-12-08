@@ -37,18 +37,24 @@ header img {
   width: 50px;
 }
 
-header nav {
-
-}
-
 h1 {
   font-family: Molle, cursive;
   font-size: 1.8em;
   margin: 0 0 1.3rem;
 }
 
-header nav a {
+ul {
+  padding: 0;
+  margin: 0;
+}
 
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
 }
 
 main {
