@@ -19,27 +19,31 @@ html {
 
 body {
   margin: 0;
-  padding: 1rem;
+  padding: .7rem;
 }
 
 header {
  text-align: center;
+ padding: .3rem;
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
 header img {
-  width: 100px;
+  display: inline-block;
+  width: 50px;
 }
 
 header nav {
 
 }
 
-header h1 {
+h1 {
   font-family: Molle, cursive;
+  font-size: 1.8em;
   margin: 0 0 1.3rem;
 }
 
@@ -60,7 +64,11 @@ div {
 }
 
 h2 {
+  font-size: 1.2em;
+}
 
+figure {
+  margin: 1em .5em;
 }
 
 p {
