@@ -24,7 +24,7 @@ body {
 header {
   text-align: center;
   position: relative;
-  background-color: #e1e1e1;
+  background-color: #3F2006;
   padding: .6rem .6rem 0;
 }
 
@@ -43,6 +43,7 @@ h1 {
   font-size: 1.8em;
   padding: 0 0 1.5rem;
   margin: 0;
+  color: #fff;
 }
 
 .ul-nav {
@@ -100,12 +101,13 @@ img.nav-close {
 
 nav li {
   list-style-type: none;
-  background-color: #acacac;
+  background-color: #a0805f;
 }
 
 a {
   text-decoration: none;
   color: #000;
+  white-space: nowrap;
 }
 
 nav a {
@@ -117,8 +119,14 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #333;
+  background-color: #76512d;
   color: #fff;
+}
+
+main{
+  background-color: #d5c2af;
+  background-image: url("../images/background3.jpg");
+  background-size: 100%;
 }
 
 section {
@@ -148,11 +156,12 @@ p {
 footer {
   text-align: center;
   padding: 0;
-  background-color: #e1e1e1;
+  background-color: #3F2006;
 }
 
 footer p {
   font-size: .75rem;
+  color: #fff;
 }
 
 .social {
@@ -230,6 +239,20 @@ footer p {
 
   .contact {
     clear: both;
+    width: 100%;
+  }
+
+  .shopimg {
+    float: left;
+    width: 50%;
+    padding: 0 .6rem 0;
+  }
+
+  .contact-info {
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 3rem 0 .6rem;
   }
 
 }
@@ -249,7 +272,22 @@ footer p {
 
   .contact {
     clear: none;
+    width: 33.333%;
   }
+
+  .shopimg {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact-info {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0 .6rem;
+  }
+
 
   .contact-info {
     text-align: center;
@@ -266,6 +304,41 @@ footer p {
   html {
     font-size: 130%;
     line-height: 1.5;
+  }
+
+ header {
+    overflow: hidden;
+  }
+
+  .img-h1 {
+    display: inline-block;
+    float: left;
+  }
+
+  img.main {
+    float: left;
+    margin: 0 .6rem;
+  }
+
+  h1 {
+    float: left;
+    padding: 0 .6rem;
+  }
+
+  .nav {
+    display: inline-block;
+    float: right;
+    width: 65%;
+  }
+
+  .ul-nav {
+    display: inline-block;
+    padding: .3rem 0;
+    float: right;
+  }
+
+  .ul-nav li {
+    min-width: 180px;
   }
 
 }
