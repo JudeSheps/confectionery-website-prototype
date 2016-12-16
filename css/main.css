@@ -24,7 +24,7 @@ body {
 header {
   text-align: center;
   position: relative;
-  background-color: #3F2006;
+  background-color: #3f2006;
   padding: .6rem .6rem 0;
 }
 
@@ -123,7 +123,7 @@ nav a:hover {
   color: #fff;
 }
 
-main{
+main {
   background-color: #d5c2af;
   background-image: url("../images/background3.jpg");
   background-size: 100%;
@@ -156,7 +156,7 @@ p {
 footer {
   text-align: center;
   padding: 0;
-  background-color: #3F2006;
+  background-color: #3f2006;
 }
 
 footer p {
@@ -245,7 +245,7 @@ footer p {
   .shopimg {
     float: left;
     width: 50%;
-    padding: 0 .6rem 0;
+    padding: 0 .6rem;
   }
 
   .contact-info {
@@ -288,11 +288,6 @@ footer p {
     padding: 0 .6rem;
   }
 
-
-  .contact-info {
-    text-align: center;
-  }
-
   .ul-nav li {
     max-width: 185px;
   }
@@ -306,7 +301,7 @@ footer p {
     line-height: 1.5;
   }
 
- header {
+  header {
     overflow: hidden;
   }
 
